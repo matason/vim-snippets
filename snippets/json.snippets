@@ -1,0 +1,24 @@
+snippet composer
+	{
+		"require": {
+			${1}
+		}
+	}
+
+snippet composer_behat
+	{
+		"require": {
+			"behat/behat": "2.4.*@stable",
+			"behat/mink": "1.4.*@stable",
+			"behat/mink-extension": "*",
+			"behat/mink-goutte-driver": "*",
+			"behat/mink-selenium2-driver": "*"
+		},
+		"minimum-stability": "dev",
+		"config": {
+			"bin-dir": "bin/"
+		}
+	}
+
+snippet phpunit
+	"phpunit/phpunit": "3.7.*"
